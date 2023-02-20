@@ -3,7 +3,7 @@ class Cuenta{
     private double saldo;// encapsulamiento no es publico no se puede accder solo en la clase creada (private)
     private int agencia;
     private int numero;
-    Cliente titular = new Cliente(); //creando una referencia de objs a objs entre class
+    private Cliente titular = new Cliente(); //creando una referencia de objs a objs entre class
                     // inicialiazando obj con null
 
     //METODO: toda secuencia de pasos para realizar una accion
@@ -52,5 +52,12 @@ class Cuenta{
     }
     public int getNumero() {
         return numero;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+    public Cliente getTitular() {
+        return titular;
     }
 }

@@ -7,12 +7,14 @@ public class CrearNull {
         //cuentaOscar.titular = clienteOscar; // null valorpor defecto (obj)
         
         //cuentaOscar.titular = new Cliente(); // el mismo codigo 
-        cuentaOscar.titular.nombre = "oscar";
+        //cuentaOscar.titular.setNombre("oscar");
+        cuentaOscar.setTitular(null);
+        //cuentaOscar.setNombre("oscar"); // no se puede por setter y getter
         // cuando cuenta esta inicializada por defaul se puede acceder al atributo
 
-        System.out.println(cuentaOscar.titular.nombre);
+        System.out.println(cuentaOscar.getTitular());
         // arrojara null por que aun no existe ningun valor
-        System.out.println(cuentaOscar.titular);
+        System.out.println(cuentaOscar);
         //aun no se crea la instacia de titular - cliente(class)
 
     }
