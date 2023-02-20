@@ -3,7 +3,8 @@ class Cuenta{
     double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular = new Cliente(); //creando una referencia de objs a objs entre class
+                    // inicialiazando obj con null
 
     //METODO: toda secuencia de pasos para realizar una accion
     public void depositar(double valor) {
