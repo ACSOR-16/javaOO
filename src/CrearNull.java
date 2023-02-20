@@ -1,6 +1,6 @@
 public class CrearNull {
     public static void main(String[] args) {
-        Cuenta cuentaOscar = new Cuenta();
+        Cuenta cuentaOscar = new Cuenta(01);
         // cuentaOscar.titular.nombre = "oscar";
         
         //Cliente clienteOscar = new Cliente();

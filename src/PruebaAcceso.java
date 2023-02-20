@@ -1,8 +1,8 @@
 public class PruebaAcceso {
     public static void main(String[] args) {
-        Cuenta cuentaOscar = new Cuenta();
+        Cuenta cuentaOscar = new Cuenta(01);
         // cuentaOscar.saldo = 200;
-        cuentaOscar.setAgencia(22);
+        //cuentaOscar.setAgencia(22);
         cuentaOscar.setNumero(365124567);
 
         cuentaOscar.depositar(1000);

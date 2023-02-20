@@ -1,6 +1,7 @@
 public class encapsulamiento {
     public static void main(String[] args) {
-        Cuenta CuentaAdhara = new Cuenta();
+        Cuenta CuentaAdhara = new Cuenta(01); //informacion obligatoria por el contructor
+        //Cuenta CuentaAdhara = new Cuenta();
         Cliente clientAdhara = new Cliente();
         clientAdhara.setNombre("Elizabeth");
         clientAdhara.setDocumento("76459803");

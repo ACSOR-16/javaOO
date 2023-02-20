@@ -9,10 +9,10 @@ public class CrearCuenta {
         // System.out.println(primeraCuenta.saldo);
         // System.out.println(segundaCuenta.saldo);
         
-        Cuenta primeraCuenta = new Cuenta();
+        Cuenta primeraCuenta = new Cuenta(01);
         primeraCuenta.getSaldo();
 
-        Cuenta segundaCuenta = new Cuenta();
+        Cuenta segundaCuenta = new Cuenta(02);
         segundaCuenta.getSaldo();
 
         System.out.println(primeraCuenta.getSaldo());

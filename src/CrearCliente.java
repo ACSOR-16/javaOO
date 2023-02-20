@@ -5,8 +5,8 @@ public class CrearCliente {
         //oscar.documento = "70440047";
         //oscar.telefono = "944020410";
 
-        Cuenta cuentaOscar = new Cuenta();
-        cuentaOscar.setAgencia(11);;
+        Cuenta cuentaOscar = new Cuenta(01);
+        //cuentaOscar.setAgencia(11);
         cuentaOscar.setTitular(oscar);
         //cuentaOscar.titular = oscar; // referenciando objs oscar - cuenta oscar
         

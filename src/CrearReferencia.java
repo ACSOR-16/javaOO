@@ -17,7 +17,7 @@ public class CrearReferencia {
         // System.out.println(firstCount);  // Cuenta@123456 tienen el mismo lugar en memoria
         // System.out.println(secondCount);// Cuenta@123456 tienen el mismo lugar en memoria
         
-        Cuenta firstCount = new Cuenta(); // se reserva un espacio en memoria
+        Cuenta firstCount = new Cuenta(03); // se reserva un espacio en memoria
         firstCount.getSaldo();
 
         Cuenta secondCount = firstCount;
